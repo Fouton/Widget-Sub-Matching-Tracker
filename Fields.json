@@ -1,0 +1,79 @@
+{
+  "matcherUsername": {
+    "type": "text",
+    "label": "Account matching subs",
+    "value": "Streamer Username Here"
+  },
+  "bonusPoints": {
+    "type": "number",
+    "label": "Add # Extra Subs Owed",
+    "value": 0
+  },
+  "allowGiftedSubs": {
+    "type": "checkbox",
+    "label": "Count Gifted Subs"
+  },
+  "allowFirstTimeSubs": {
+    "type": "checkbox",
+    "label": "Count First Time Subs"
+  },
+  "allowResubs": {
+    "type": "checkbox",
+    "label": "Count Resubs"
+  },
+  "allowBitsforSubs": {
+    "type": "checkbox",
+    "label": "Count Bits For Subs"
+  },
+  "bitsPerSub": {
+    "type": "number",
+    "label": "Bits Per Sub",
+    "value": 500
+  },
+  "allowDonosforSubs": {
+    "type": "checkbox",
+    "label": "Count Dollars For Subs"
+  },
+  "dollarsPerSub": {
+    "type": "number",
+    "label": "Donation Dollars Per Sub",
+    "value": 5
+  },
+  "startText": {
+    "type": "text",
+    "label": "Text before current count value",
+    "value": "Subs Owed:"
+  },
+  "fontName": {
+    "type": "text",
+    "label": "Font Name",
+    "value": "Roboto"
+  },
+  "labelColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "labelSize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 24
+  },
+  "labelStroke": {
+    "type": "number",
+    "label": "Font Stroke Size",
+    "value": 1
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Sub Matching Tracker"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Fouton"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0"
+  }
+}

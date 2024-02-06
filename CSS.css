@@ -1,0 +1,16 @@
+* {
+    font-family: '{{fontName}}', sans-serif;
+}
+.legend{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    font-size:{{labelSize}}px;
+    color:{{labelColor}};
+    text-align:center;
+    font-weight:1200;
+    -webkit-text-stroke-width: {{labelStroke}}px;
+    -webkit-text-stroke-color: black;
+}
